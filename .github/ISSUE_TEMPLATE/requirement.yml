@@ -1,0 +1,17 @@
+name: Requirement
+description: High-level requirement with acceptance criteria
+labels: ["issue"]
+body:
+  - type: input
+    id: title
+    attributes: { label: Requirement Title }
+    validations: { required: true }
+  - type: textarea
+    id: rationale
+    attributes: { label: Rationale, description: Why this requirement exists }
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Use clear, testable bullets (Given/When/Then optional)
+    validations: { required: true }

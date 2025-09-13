@@ -1,0 +1,24 @@
+name: Test Case
+description: Verifiable test linked to requirement or task
+labels: ["issue"]
+body:
+  - type: input
+    id: title
+    attributes: { label: Test Title }
+    validations: { required: true }
+  - type: textarea
+    id: pre
+    attributes: { label: Preconditions / Setup }
+  - type: textarea
+    id: steps
+    attributes: { label: Steps }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected Result }
+    validations: { required: true }
+  - type: input
+    id: links
+    attributes:
+      label: Verifies Issue
+      description: Reference issue number (e.g., #45)

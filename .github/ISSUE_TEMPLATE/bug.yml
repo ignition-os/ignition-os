@@ -1,0 +1,17 @@
+name: Bug
+description: Report a defect
+labels: ["issue","Priority: P1"]
+body:
+  - type: textarea
+    id: observed
+    attributes: { label: Observed Behavior }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected Behavior }
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions
+    validations: { required: true }

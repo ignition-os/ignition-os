@@ -1,0 +1,16 @@
+name: Epic
+description: Large body of work grouped into tasks
+labels: ["issue"]
+body:
+  - type: input
+    id: goal
+    attributes: { label: Epic Goal, description: Outcome we’re aiming for }
+    validations: { required: true }
+  - type: textarea
+    id: scope
+    attributes: { label: Scope, description: In/Out of scope bullets }
+  - type: textarea
+    id: breakdown
+    attributes:
+      label: Tasks/Stories
+      description: Checklist with linked issues, e.g. - [ ] #123
