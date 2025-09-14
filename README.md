@@ -1,3 +1,3 @@
 # Ignition OS
 
-Arch-based automotive penetration testing distribution.
+Arch-based Automotive Penetration Testing Distribution.
