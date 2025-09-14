@@ -1,0 +1,5 @@
+# ArchISO build artefacts
+/archiso/work/
+/archiso/out/
+/*.iso
+*.img
