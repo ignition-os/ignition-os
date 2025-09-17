@@ -35,7 +35,7 @@
 
 To see the status of the repository, run:
 
-      ```bash
-          git status
+    ```bash
+   git status
 <img width="670" height="86" alt="image" src="https://github.com/user-attachments/assets/649a3235-f7b2-4765-b2f5-2e76d1ec75f1" />
 
