@@ -3,6 +3,12 @@ base
 linux
 linux-firmware
 archiso
+memtest86+
+memtest86+-efi
+edk2-shell
+
+# bootloaders
+syslinux
 
 # networking & tools
 iproute2
