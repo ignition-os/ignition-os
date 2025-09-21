@@ -1,0 +1,7 @@
+NAME="Ignition OS"
+PRETTY_NAME="Ignition OS (Arch base)"
+ID=arch
+ID_LIKE=arch
+HOME_URL="https://github.com/ignition-os/ignition-os"
+SUPPORT_URL="https://github.com/ignition-os/ignition-os/issues"
+BUG_REPORT_URL="https://github.com/ignition-os/ignition-os/issues"
