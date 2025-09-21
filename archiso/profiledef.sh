@@ -3,8 +3,8 @@
 
 iso_name="ignition-os"
 iso_label="IGNITION_2025"
-iso_publisher="https://github.com/ignition-os/"
-iso_application="Ignition OS"
+iso_publisher="Ignition OS <https://github.com/ignition-os>"
+iso_application="Ignition OS Live Environment"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
